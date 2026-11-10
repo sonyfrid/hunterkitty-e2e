@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+stand/.venv-pg/
+stand/pgdata/
+stand/*.log
+stand/alembic.ini
+__pycache__/
+stand/var/
+stand/stand.py

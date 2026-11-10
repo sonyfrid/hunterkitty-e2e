@@ -1,0 +1,17 @@
+{
+  "name": "hunterkitty-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E2E and API tests for HunterKitty Work Telegram Mini App: Playwright + JavaScript, Android emulation, Page Object",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test --project=\"Pixel 7\" --project=\"Galaxy S9+\"",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report"
+  },
+  "author": "Sony Fridmo",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}
